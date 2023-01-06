@@ -73,6 +73,7 @@ main{
     border: 1px solid #ed4f4f;
 }
 #other-amount{
+    padding: 10px 80px;
     margin-top: 40px;
     text-align: center;
     border-style: none;
@@ -140,10 +141,36 @@ main{
 .contact-email{
     border-style: none;
     background-color:rgb(251, 255, 169) ;
-    padding: 60px 300px 60px 200px;
+    padding: 60px 100px;
+    justify-content: center;
+    
     display: flex;
 }
 #email-box{
-    border-left: 0;
+    background-color: rgb(222, 222, 222);
+    border:none;
+    padding-left: 20px;
+    border-radius:0 0 0 5px;
+    
+}
+.contact-email .btn-primary{
+    text-align: center;
+    border-radius: 0 5px 0 0;
+}
+/* footer section  */
+footer{
+    background: rgb(0, 0, 0) ;
+    background-position: cover;
+    text-align: center;
+}
+footer h2{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ed4f4f;
+    padding-top: 30px;
+}
+footer p{
+    font-size: 10px;
+    color: white;
+    padding-bottom: 30px;
 }
